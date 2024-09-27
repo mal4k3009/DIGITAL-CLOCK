@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Black background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #ffffff; /* White border */
+    border-radius: 20px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2); /* Shadow effect */
+}
+
+.clock {
+    font-size: 4rem; /* Large font size for the clock */
+    margin: 20px 0;
+}
+
+.digit {
+    display: inline-block;
+    width: 60px; /* Fixed width for digit containers */
+    height: 80px; /* Height of each digit */
+    text-align: center; /* Center text */
+    line-height: 80px; /* Center vertically */
+}
+
+.date {
+    font-size: 1.5rem; /* Font size for the date */
+    color: #ccc; /* Light gray for date */
+}
